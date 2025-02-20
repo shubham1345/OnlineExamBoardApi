@@ -34,7 +34,7 @@ namespace OnlineExamBoardApi.Controllers
         {
         }
 
-        // PUT api/<CollegeController>/5
+         
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
